@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'POPAppRater_Example', :exclusive => true do
+  pod 'POPAppRater', :path => '../'
+end
+
+target 'POPAppRater_Tests', :exclusive => true do
+  pod 'POPAppRater', :path => '../'
+
+  
+end

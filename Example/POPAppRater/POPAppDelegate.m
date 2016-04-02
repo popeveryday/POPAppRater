@@ -7,12 +7,15 @@
 //
 
 #import "POPAppDelegate.h"
+#import <POPAppRater/POPAppRater.h>
 
 @implementation POPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    [POPAppRater showRaterWithAppID:@"896411278" appName:@"Message Backup Reader" maxCounterToAlert:3 maxCounterToReset:95];
+    
     return YES;
 }
 

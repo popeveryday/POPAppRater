@@ -1,8 +1,30 @@
 PODS:
-  - MBProgressHUD (1.0.0)
-  - POPAppRater (0.1.02):
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - MBProgressHUD (1.1.0)
+  - POPAppRater (0.2.0):
     - POPLib (~> 0.1)
-  - POPLib (0.2.32):
+  - POPLib (0.4.23):
+    - FontAwesomeKit (~> 2.2.0)
     - MBProgressHUD (~> 1.0)
     - PureLayout
   - PureLayout (3.1.2)
@@ -12,6 +34,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FontAwesomeKit
     - MBProgressHUD
     - POPLib
     - PureLayout
@@ -21,9 +44,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  POPAppRater: 2aa97361950aedfe4dace0661038987d52535673
-  POPLib: 1332f3ae69af62226e06589d44bc56909a87df69
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  POPAppRater: 9541490d71d77c319efbb0182f0d607f4f795182
+  POPLib: 3cde08b1624a0e06d31ac6f6f6234c2656182cbf
   PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
 
 PODFILE CHECKSUM: b515ff604a8e5214850bc8f4ac1548e4df3e47c7

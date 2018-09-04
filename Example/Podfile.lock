@@ -1,20 +1,31 @@
 PODS:
-  - MBProgressHUD (0.9.2)
-  - POPAppRater (0.1.0):
+  - MBProgressHUD (1.0.0)
+  - POPAppRater (0.1.02):
     - POPLib (~> 0.1)
-  - POPLib (0.1.69):
-    - MBProgressHUD (~> 0.9)
+  - POPLib (0.2.32):
+    - MBProgressHUD (~> 1.0)
+    - PureLayout
+  - PureLayout (3.1.2)
 
 DEPENDENCIES:
   - POPAppRater (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+    - POPLib
+    - PureLayout
+
 EXTERNAL SOURCES:
   POPAppRater:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  POPAppRater: b69700146912edffbbcfbbb799c847b6deb69660
-  POPLib: e71b43a261ebf87bfcb4b35bce915928123a11eb
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  POPAppRater: 2aa97361950aedfe4dace0661038987d52535673
+  POPLib: 1332f3ae69af62226e06589d44bc56909a87df69
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: b515ff604a8e5214850bc8f4ac1548e4df3e47c7
+
+COCOAPODS: 1.5.3

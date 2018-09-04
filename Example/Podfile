@@ -1,12 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'POPAppRater_Example', :exclusive => true do
+target 'POPAppRater_Example' do
   pod 'POPAppRater', :path => '../'
+  target 'POPAppRater_Tests' do
+  	inherit! :search_paths
+  end
 end
 
-target 'POPAppRater_Tests', :exclusive => true do
-  pod 'POPAppRater', :path => '../'
 
-  
-end

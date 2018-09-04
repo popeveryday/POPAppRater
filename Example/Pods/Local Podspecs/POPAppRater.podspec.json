@@ -1,6 +1,6 @@
 {
   "name": "POPAppRater",
-  "version": "0.1.0",
+  "version": "0.1.02",
   "summary": "POPFormTable is cutom UITableViewController that support generate some common input field for Object-c project.",
   "homepage": "https://github.com/popeveryday/POPAppRater",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/popeveryday/POPAppRater.git",
-    "tag": "0.1.0"
+    "tag": "0.1.02"
   },
   "platforms": {
     "ios": "7.1"

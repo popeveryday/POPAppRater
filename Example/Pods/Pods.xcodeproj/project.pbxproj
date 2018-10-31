@@ -49,6 +49,7 @@
 		5715145B6650595FF7AA65AF0AB98442 /* Pods-POPAppRater_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B7D1EC701FD5AC402C90F792BCAD28 /* Pods-POPAppRater_Example-dummy.m */; };
 		5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9265105C4B83A5FDE9E292474A0617A8 /* FAKOcticons.m */; };
 		58503194E2231AFE7AB9A5521E330C46 /* Pods-POPAppRater_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A6518E16E9C00BB731D88DE08CD507 /* Pods-POPAppRater_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5858B68C218A1FF700E35669 /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5858B68E218A1FF700E35669 /* AppiraterLocalizable.strings */; };
 		597D3E02394145065EF7BB5D238F4117 /* Hashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = E1299AADB5366711C5AC4BD1D0999E8E /* Hashtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DA26FEB195B1F31EFD2B0B602B66E3B /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CD45107FE14F58E35A5C5FB1359FD7 /* PureLayout-dummy.m */; };
 		5E87F0384B11230BA9647E72A8550BF9 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839CAE45ADF0C3DCB984ED078D03B52A /* MBProgressHUD.framework */; };
@@ -92,7 +93,6 @@
 		B216CAC7897F755237D458CB69E12C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCD64ED8CBD557D66466093AF98393F /* Foundation.framework */; };
 		B385B62CA8073ED2EA5940CA0F8CCE34 /* ObserverObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F47EBF0951DF08DD7FC43C789B8BA6 /* ObserverObject.m */; };
 		B46589F212559B55A09D3CF7D7558F1C /* POPAppRater.h in Headers */ = {isa = PBXBuildFile; fileRef = C68F97B7545A9F3498FE2CA124EBA116 /* POPAppRater.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5DB64EF5EF3356C24D814D03351189F /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558B0F00DD5F9AA515430B46ADD9CE1D /* AppiraterLocalizable.strings */; };
 		B87AA92717C87ACF24C4EDDE891E2B8F /* NSDate+NVTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ADD3833DB9D06A58B3F9C3072A3060 /* NSDate+NVTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8D2508705E4F0BAE62C0F1F05595172 /* FileLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA3796243DB09910793ABEFFDF5AEEC /* FileLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9FEB901A4879FEBD8BFF965D3DAE99C /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C273D529315DC7689C26687BD6BB79A /* PageView.m */; };
@@ -222,7 +222,7 @@
 		014644EE740BCC70B2DCF07CF12879AC /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
 		01ADD3833DB9D06A58B3F9C3072A3060 /* NSDate+NVTimeAgo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+NVTimeAgo.h"; path = "POPLib/Classes/Extend/NSDate+NVTimeAgo.h"; sourceTree = "<group>"; };
 		0427C8C901360C647E7695DA55969CCC /* FileLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FileLib.m; path = POPLib/Classes/Common/FileLib.m; sourceTree = "<group>"; };
-		04A7B3140D632254EB3B11CB758DF4CB /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		04A7B3140D632254EB3B11CB758DF4CB /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
 		06C9288E2E27E82412FBB9746925909D /* Pods-POPAppRater_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POPAppRater_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0733DC4E9F1C49E3B017DC4F93EF8EC4 /* DateLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateLib.h; path = POPLib/Classes/Common/DateLib.h; sourceTree = "<group>"; };
 		077FE6D5D576D60EA71889DD3F937388 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = POPLib/Classes/Custom/Reachability.m; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 		16D9E5F79E4138500754E65EC9B24ABC /* SimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimplePing.h; path = POPLib/Classes/Custom/SimplePing.h; sourceTree = "<group>"; };
 		185AFC9FBD5BD480C16D87BC0C663C23 /* InAppPurchaseLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InAppPurchaseLib.m; path = POPLib/Classes/Common/InAppPurchaseLib.m; sourceTree = "<group>"; };
 		1AA7558F86627B25CFF2BA74FFBA163A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1B5A377B09DC0A66399BEA99D4AC32DC /* POPAppRater.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = POPAppRater.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B5A377B09DC0A66399BEA99D4AC32DC /* POPAppRater.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = POPAppRater.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B94B4169BE886133E5ABAED03BE7B44 /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALAssetsLibrary+CustomPhotoAlbum.m"; path = "POPLib/Classes/Extend/ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
 		20B79D073FCD226E6CACE7D2A14DBEBA /* Pods-POPAppRater_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POPAppRater_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2537C6AA182E39B18B198B6938A36365 /* CollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CollectionView.m; path = POPLib/Classes/Custom/CollectionView.m; sourceTree = "<group>"; };
@@ -244,12 +244,12 @@
 		3704DFF2DD719958470FEDF57C170F37 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 		371A9787021805F3FA6B60966EC6E395 /* POPLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POPLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E9D3AC265536F0A1F0CE4768610018 /* POPLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POPLib-dummy.m"; sourceTree = "<group>"; };
-		39A8E2B1B76EBDCFC7EC12B15CCCB00F /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		39A8E2B1B76EBDCFC7EC12B15CCCB00F /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
 		3BC81D491143AB8CE95C38E3C9671861 /* CommonLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CommonLib.m; path = POPLib/Classes/Common/CommonLib.m; sourceTree = "<group>"; };
-		4413484B199C6683E6CBFD02FCBA13A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4413484B199C6683E6CBFD02FCBA13A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		45CD45107FE14F58E35A5C5FB1359FD7 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
 		49435E6A87A7FC721DE812A145253983 /* DateObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateObject.m; path = POPLib/Classes/Custom/DateObject.m; sourceTree = "<group>"; };
-		4CFAD5B42A40C735F097CF792684ACCC /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		4CFAD5B42A40C735F097CF792684ACCC /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
 		4E16E315B4BD5723125B357E67805B8C /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		4E229A4CCA10212B75D1887A8C1B2831 /* ImageLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageLib.m; path = POPLib/Classes/Common/ImageLib.m; sourceTree = "<group>"; };
 		4EEC271251A9BADD88B1C96A7DA9AD32 /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALAssetsLibrary+CustomPhotoAlbum.h"; path = "POPLib/Classes/Extend/ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
@@ -257,15 +257,16 @@
 		4FF2CB06F5AA65364FF65404D83013B5 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		505EBEDDE81BDBD1C224CF0E846BCF7C /* Pods-POPAppRater_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POPAppRater_Tests-resources.sh"; sourceTree = "<group>"; };
 		548191498F4D42FC6170E214A1D0AA8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		558B0F00DD5F9AA515430B46ADD9CE1D /* AppiraterLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = AppiraterLocalizable.strings; path = Pod/Classes/AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		55FBFB6DD79F72BEC57CD8A4A7E5A6AB /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		568C63A548E069C4D282F71C9F36DEE7 /* Pods-POPAppRater_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POPAppRater_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		580B44EC88BEAFE45D6A97EA7C50B1DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5858B68D218A1FF700E35669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
+		5858B68F218A202700E35669 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		5AB3056C7AFE8AE4B78C29F7355C3AE9 /* CoreData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreData.h; path = POPLib/Classes/Common/CoreData.h; sourceTree = "<group>"; };
 		5E29F741DEEFF2921250555D9EA56A65 /* Pods-POPAppRater_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POPAppRater_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5ED80028CF18725AD0606E0F51E21092 /* GameCenterLib2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GameCenterLib2.h; path = POPLib/Classes/Common/GameCenterLib2.h; sourceTree = "<group>"; };
 		5F3096B1EE4ED8C923AA397E4E8DCE6C /* QUIBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QUIBuilder.h; path = POPLib/Classes/Custom/QUIBuilder.h; sourceTree = "<group>"; };
-		5FA54DF2CE3653A57CC411B7D67E1E78 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		5FA54DF2CE3653A57CC411B7D67E1E78 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
 		637ABB25E83A0F220F56F7F743529CD6 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
 		638AE269B3F0CC9936529827764A3E5C /* POPAppRater-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POPAppRater-prefix.pch"; sourceTree = "<group>"; };
 		6411516CACB00AF120CEB174A1AF588C /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
@@ -281,27 +282,27 @@
 		7258DEAAC4BFC68026D3F1064DA821A4 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
 		7539499603AC25B9D96815BC122CFC2B /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
 		7567A381E11B8D8F2F6CE24AF72AFFE3 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
-		78CF75769FF239DB95A26EBC15C32269 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		78CF75769FF239DB95A26EBC15C32269 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
 		796B1F52429A13D84FD3858E0FFE37AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A9F8B445222BBE0C057A4EDBC8D5002 /* Pods-POPAppRater_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-POPAppRater_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7BD241D628B982D8269678A844D2C1E6 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7C00698E1BE246A943ED914F4D3616D8 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = POPLib/Classes/Custom/Reachability.h; sourceTree = "<group>"; };
 		7CA35AC8C762D1D8921ED6B0648116BC /* CommonLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonLib.h; path = POPLib/Classes/Common/CommonLib.h; sourceTree = "<group>"; };
 		7E66AD4B8216BF935921EC23108F1E0B /* Pods-POPAppRater_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-POPAppRater_Example-resources.sh"; sourceTree = "<group>"; };
-		7EED2B82FDC6FBE20846FB894AEE18E1 /* Pods_POPAppRater_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_POPAppRater_Tests.framework; path = "Pods-POPAppRater_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EED2B82FDC6FBE20846FB894AEE18E1 /* Pods_POPAppRater_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAppRater_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F50849D9C280AAE834878CA7D3CE312 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7F95570FFB56B8168D278C85C9879688 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
 		8031BB09233BEFF69165A0A1AB8B1944 /* Pods-POPAppRater_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-POPAppRater_Tests-dummy.m"; sourceTree = "<group>"; };
 		80D576FF3A951188AA41F42E1F2690C1 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		80DA884207869D12DA8B58FE41FA7D99 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DA884207869D12DA8B58FE41FA7D99 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		839CAE45ADF0C3DCB984ED078D03B52A /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E122C65C41B6CA819E06787B5B80A /* Pods-POPAppRater_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-POPAppRater_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		886BA39E2EACE04EE24FAEA03762DA97 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
-		88A6D5487236E07B3BA2F9203947BCF3 /* POPLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = POPLib.framework; path = POPLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A6D5487236E07B3BA2F9203947BCF3 /* POPLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POPLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C273D529315DC7689C26687BD6BB79A /* PageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PageView.m; path = POPLib/Classes/Custom/PageView.m; sourceTree = "<group>"; };
 		8E126225C1244325C36EBEBA8E2D8A6A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		9265105C4B83A5FDE9E292474A0617A8 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		941F0BBEDF30E6BE991A7AECA7ED8F82 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		943D75C603E18CEBCDFEF3522AEDF575 /* DateObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateObject.h; path = POPLib/Classes/Custom/DateObject.h; sourceTree = "<group>"; };
 		94796D22CF5E1A5F4BAAD397166804BD /* POPAppRater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "POPAppRater-dummy.m"; sourceTree = "<group>"; };
@@ -317,8 +318,8 @@
 		A23ED833844AD98FA13F94CB49444B1E /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
 		A4055FBDC554F7B9E8213DF6C3E3A898 /* GameCenterLib2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GameCenterLib2.m; path = POPLib/Classes/Common/GameCenterLib2.m; sourceTree = "<group>"; };
 		A4330B5EE407D54E4E67D27E2C09B15B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
-		A442749A8F8ACC4905634A0D1A9133AE /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4565DBF0FE7BC3C807540BD0317A7C2 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		A442749A8F8ACC4905634A0D1A9133AE /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4565DBF0FE7BC3C807540BD0317A7C2 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
 		A80F9DEB2E1256F43873729D5080FD6E /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
 		A9A6518E16E9C00BB731D88DE08CD507 /* Pods-POPAppRater_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-POPAppRater_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A9D4CBB466FCAA7642F67D6027F6E2AA /* POPAppRater.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = POPAppRater.modulemap; sourceTree = "<group>"; };
@@ -340,15 +341,15 @@
 		C323DB0BFCC16B45C87C88D23F40810A /* SimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimplePing.m; path = POPLib/Classes/Custom/SimplePing.m; sourceTree = "<group>"; };
 		C358D26B1D6DB2430B6B40BF0D234E89 /* Pods-POPAppRater_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-POPAppRater_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5CFC8164D12F1494C7DF9DA710253FB /* ImageLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageLib.h; path = POPLib/Classes/Common/ImageLib.h; sourceTree = "<group>"; };
-		C632CCF2AFA7415B98EB83DCDE77B0A2 /* Pods_POPAppRater_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_POPAppRater_Example.framework; path = "Pods-POPAppRater_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C632CCF2AFA7415B98EB83DCDE77B0A2 /* Pods_POPAppRater_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPAppRater_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68F97B7545A9F3498FE2CA124EBA116 /* POPAppRater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAppRater.h; path = Pod/Classes/POPAppRater.h; sourceTree = "<group>"; };
 		C7162493FF2FCA8E6AAEA4B22226CBB3 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC98CF72AB73DEA08FE208C4CF2EB572 /* ObserverObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObserverObject.h; path = POPLib/Classes/Custom/ObserverObject.h; sourceTree = "<group>"; };
 		CD6033E9DF8353961D813EACBBFDD7D2 /* Pods-POPAppRater_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-POPAppRater_Example-umbrella.h"; sourceTree = "<group>"; };
 		CFB28E8AD913490E13729DA6F283396F /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		D059E94F225ECD5A82D37F2DAD97768C /* POPAppRater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = POPAppRater.framework; path = POPAppRater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D059E94F225ECD5A82D37F2DAD97768C /* POPAppRater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POPAppRater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1564C2DF2D8E47F60EA57EC582E164B /* NetServiceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetServiceHelper.h; path = POPLib/Classes/Custom/NetServiceHelper.h; sourceTree = "<group>"; };
-		D25476BC8D4BAB78EC529E33FF14E8BB /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25476BC8D4BAB78EC529E33FF14E8BB /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3875F1B16E25147BC425ECE429A49FC /* NSDate+NVTimeAgo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+NVTimeAgo.m"; path = "POPLib/Classes/Extend/NSDate+NVTimeAgo.m"; sourceTree = "<group>"; };
 		D3D9594820828CF6D582FB69EDFFEA37 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
 		D5960CF953740CBB544E3AE990519C7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -369,7 +370,7 @@
 		EDC028BB28C4B691DAB6CDD46DF73F84 /* Pods-POPAppRater_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-POPAppRater_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EDCE117820CF749D9A4CA038E0F27651 /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
 		EF40BA8B2C97D5DCFC0401748F959436 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
-		F39216E88078D25C7E13132BFBA43626 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F39216E88078D25C7E13132BFBA43626 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F5E26269D7EB94CA0D39FD9BCEDD64B7 /* POPLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "POPLib-prefix.pch"; sourceTree = "<group>"; };
 		FB18E853E74E5CA534AE4AFF1278D306 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -448,7 +449,7 @@
 		075627BED456CFC66D18FCEF60C2D84D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				558B0F00DD5F9AA515430B46ADD9CE1D /* AppiraterLocalizable.strings */,
+				5858B68E218A1FF700E35669 /* AppiraterLocalizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -560,7 +561,6 @@
 				BC7707B6FB6772E1D406D96B7DC7FDEB /* PureLayoutDefines.h */,
 				FCF73D508859A2AF09C82C0CCF392F97 /* Support Files */,
 			);
-			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -643,7 +643,6 @@
 				B3A401F1BD269BBC8C20BA79324E12BE /* ViewLib.m */,
 				8D1E04FB2EA65B64DCB40EF4F40F5DB4 /* Support Files */,
 			);
-			name = POPLib;
 			path = POPLib;
 			sourceTree = "<group>";
 		};
@@ -807,7 +806,6 @@
 				8E126225C1244325C36EBEBA8E2D8A6A /* MBProgressHUD.m */,
 				8A71C0B89D18F6C8254B939613DD1640 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -854,7 +852,6 @@
 				14D0949708517DA11FB16F4D257BBBAB /* Support Files */,
 				44DF081DCCE1CCD95DC1BC142C478F81 /* Zocial */,
 			);
-			name = FontAwesomeKit;
 			path = FontAwesomeKit;
 			sourceTree = "<group>";
 		};
@@ -1132,6 +1129,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				vi,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 104C1FD496BCA4F98835952CBB0F89BD /* Products */;
@@ -1154,7 +1152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DB64EF5EF3356C24D814D03351189F /* AppiraterLocalizable.strings in Resources */,
+				5858B68C218A1FF700E35669 /* AppiraterLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1348,6 +1346,19 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5858B68E218A1FF700E35669 /* AppiraterLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5858B68D218A1FF700E35669 /* en */,
+				5858B68F218A202700E35669 /* vi */,
+			);
+			name = AppiraterLocalizable.strings;
+			path = Pod/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		09B246E4C79A25CF7B84775CCE28414B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1386,6 +1397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1855,6 +1867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -24,7 +24,7 @@
 	
     label = [[UILabel alloc] initWithFrame:self.view.frame];
     label.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    label.text = [NSString stringWithFormat:@"Total times app start: %d\n(Tap here to rate app)", [POPAppRater instance].counterTimes];
+    label.text = [NSString stringWithFormat:@"Total times app start: %ld\n(Tap here to rate app)", (long)[POPAppRater instance].counterTimes];
     label.numberOfLines = 100;
     label.userInteractionEnabled = YES;
     label.textAlignment = NSTextAlignmentCenter;
